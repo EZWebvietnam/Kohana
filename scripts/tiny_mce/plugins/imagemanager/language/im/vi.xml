@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<language-pack>
+	<header>
+		<!-- Please fill in contact information (author & email), we might contact you when we are doing updates -->
+		<!-- You will also have the chance to participate in beta releases of new versions -->
+		<author>Moxiecode Systems AB (spam@moxiecode.com)</author>
+		<version minor="2" major="1" releasedate="2006-12-05" />
+		<description>
+			Đây là gói ngôn ngữ Tiếng Việt cho MCImageManager.
+		</description>
+	</header>
+
+	<language code="vi" title="Tiếng Việt" dir="ltr">
+		<group target="common">
+			<item name="title">Quản lý hình ảnh Moxiecode</item>
+			<item name="filemanager">Quản lý tập tin</item>
+			<item name="createdir">Tạo thư mục</item>
+			<item name="refresh">Làm tươi</item>
+			<item name="upload">Tải lên</item>
+			<item name="help">Trợ giúp</item>
+			<item name="edit">Sửa</item>
+			<item name="deleteit">Xóa bỏ</item>
+			<item name="view">Xem</item>
+			<item name="download">Tải xuống</item>
+			<item name="insert">Chèn</item>
+			<item name="directory">Thư mục đã chọn</item>
+			<item name="loading">Đang tải...</item>
+			<item name="filter">Lọc</item>
+			<item name="alert_ok">Ok</item>
+			<item name="confirm_yes">Có</item>
+			<item name="confirm_no">Không</item>
+			<item name="prev">Trước</item>
+			<item name="next">Sau</item>
+			<item name="image_data">Đang nhận dữ liệu hình ảnh, vui lòng chờ...</item>
+			<item name="page">Trang</item>
+			<item name="of">của</item>
+
+			<!-- Legacy items -->
+			<item name="add_favorite">Thêm yêu thích</item>
+			<item name="removefavorite">Loại bỏ yêu thích</item>
+		</group>
+
+		<group target="button">
+			<!-- think about the length of the text -->
+			<item name="create">Tạo</item>
+			<item name="cancel">Hủy bỏ</item>
+			<item name="apply">Áp dụng</item>
+			<item name="save">Lưu</item>
+		</group>
+
+		<group target="error">
+			<!-- common -->
+			<item name="demo">Hành động này bị hạn chế trong chế độ demo.</item>
+			<item name="no_filesystem">Không tìm thấy hệ thống tập tin cho đường dẫn: {path}.</item>
+			<item name="no_access">Không truy cập vào tập tin/thư mục này.</item>
+			<item name="no_write_access">Thư mục không được ghi.</item>
+			<item name="file_not_exists">Tập tin/thư mục không tìm thấy.</item>
+			<item name="invalid_filename">Tên tập tin không hợp lệ.</item>
+
+			<!-- create dir -->
+			<item name="template_missing">Khuôn mẫu đã chọn bị thiếu.</item>
+			<item name="folder_exists">Một thư mục với tên được chỉ định đã tồn tại.</item>
+			<item name="createdir_failed">Lỗi không thể tạo thư mục.</item>
+
+			<!-- upload -->
+			<item name="upload_failed">Tải lên thất bại, hãy kiểm tra quyền ghi thư mục của bạn.</item>
+			<item name="file_exists">Một tập tin với tên được chỉ định đã tồn tại.</item>
+			<item name="error_to_large">Các tập tin mà bạn đang cố gắng tải lên quá lớn.</item>
+
+			<!-- delete -->
+			<item name="delete_failed">Không thể xóa tập tin.</item>
+			
+			<!-- image edit -->
+			<item name="crop_failed">Không thể cắt hình ảnh.</item>
+			<item name="resize_failed">Không thể thanh đổi kích cỡ hình ảnh.</item>
+			<item name="rotate_failed">Xoay không thành công.</item>
+			<item name="flip_failed">Lật không thành công.</item>
+			<item name="save_failed">Lưu không thành công.</item>
+
+			<!-- Legacy items -->
+			<item name="remove_favorite_failed">Không thể loại bỏ các yêu thích từ danh sách yêu thích của bạn.</item>
+		</group>
+
+		<group target="message">
+			<!-- common -->
+			<item name="save_success">Tập tin đã được lưu.</item>
+			<item name="keepalive">Yêu cầu Keepalive.</item>
+
+			<!-- delete -->
+			<item name="delete_success">Tập tin đã được xóa thành công.</item>
+
+			<!-- create dir -->
+			<item name="directory_ok">Thư mục đã được tạo.</item>
+
+			<!-- upload -->
+			<item name="upload_ok">Tải lên thành công.</item>
+
+			<!-- image edit -->
+			<item name="crop_success">Cắt thành công.</item>
+			<item name="resize_success">Thay đổi kích cỡ thành công.</item>
+			<item name="rotate_success">Xoay thành công.</item>
+			<item name="flip_success">Lật thành công.</item>
+		</group>
+
+		<group target="panel">
+			<item name="categories">Danh mục</item>
+			<item name="folders">Thư mục</item>
+
+			<!-- Legacy items -->
+			<item name="favorites">Yêu thích</item>
+			<item name="history">Lịch sử</item>
+		</group>
+
+		<group target="view">
+			<item name="title">Xem</item>
+			<item name="mode">Chế độ xem:</item>
+			<item name="thumbnail">Thumbnails</item>
+			<item name="textlist">Danh sách văn bản</item>
+			<item name="images_per_page">hình ảnh/trang</item>
+			<item name="confirm_delete">Bạn có chắc chắn muốn loại bỏ tập tin này?</item>
+			<item name="keyboard_next">Phím tắt: SPACE,N,RIGHTARROW,PAGE DOWN</item>
+			<item name="keyboard_prev">Phím tắt: P,LEFTARROW,PAGE UP</item>
+			<item name="dimensions">Kích thước</item>
+
+			<!-- Legacy items -->
+			<item name="confirm_remove_favorite">Bạn có chắc chắn muốn loại bỏ yêu thích từ danh sách yêu thích của bạn?</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">Tạo thư mục</item>
+			<item name="description">Chèn một tên cho thư mục mà bạn muốn tạo.</item>
+			<item name="template">Khuôn mẫu:</item>
+			<item name="select_template">-- Chọn khuôn mẫu --</item>
+			<item name="directory_name">Tên thư mục:</item>
+			<item name="create_in">Tạo ở trong:</item>
+			<item name="progress">Đang tạo thư mục, vui lòng chờ đợi...</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">Tải lên</item>
+			<item name="description">Sử dụng form để tải lên các tập tin.</item>
+			<item name="valid_extensions">Phần mở rộng hợp lệ:</item>
+			<item name="max_upload_size">Kích cỡ tải lên tối đa:</item>
+			<item name="file_to_upload">Tập tin để tải lên:</item>
+			<item name="as_file_name">Như tên tập tin:</item>
+			<item name="path">Đường dẫn: </item>
+			<item name="button_upload">Tải lên</item>
+			<item name="browse">Thêm tập tin</item>
+			<item name="progress">Đang tải lên...</item>
+			<item name="upload_warn">Các tập tin đang được tải lên, bạn có chắc bạn muốn hủy bỏ việc tải lên?</item>
+			<item name="statusrow">Bạn có {files} tập tin (tổng cộng {size}) háo hức chờ đợi để được tải lên.</item>
+			<item name="progressinfo">{loaded} của {total} đã tải lên ở tốc độ {speed}/s.</item>
+			<item name="abort">Hủy bỏ tải lên</item>
+			<item name="add_more">Thêm nữa?</item>
+			<item name="upload_to_server">Tải lên máy chủ</item>
+			<item name="cancelled">Tải lên đã bị hủy bỏ</item>
+			<item name="choose_files">Chọn các tập tin</item>
+			<item name="basic_upload">Nếu bạn có rắc rối khi tải lên bạn có thể luôn luôn sử dụng {a}trình tải lên cơ bản{/a}.</item>
+			<item name="remove">Loại bỏ</item>
+			<item name="file">Tập tin</item>
+			<item name="size">Kích cỡ</item>
+			<item name="status">Trạng thái</item>
+			<item name="no_valid_files">Không có tập tin hợp lệ, vui lòng thử lại.</item>
+		</group>
+
+		<group target="edit_image">
+			<item name="title">Moxiecode ImageManager Editor</item>
+			<item name="save">Lưu lại</item>
+			<item name="revert">Hoàn nguyên</item>
+			<item name="crop">Cắt</item>
+			<item name="resize">Thay đổi kích cỡ</item>
+			<item name="please_wait">Đang xử lý ảnh, vui lòng chờ...</item>
+			<item name="constrain">Ràng buộc tỉ lệ</item>
+			<item name="left">Trái</item>
+			<item name="top">Trên</item>
+			<item name="width">Rộng</item>
+			<item name="height">Cao</item>
+			<item name="save_as">Lưu như</item>
+			<item name="flip">Lật</item>
+			<item name="rotate">Xoay</item>
+			<item name="reload">Tải lại</item>
+			<item name="horizontal">Ngang</item>
+			<item name="vertical">Dọc</item>
+			<item name="saving_wait">Đang lưu ảnh, vui lòng chờ...</item>
+			<item name="confirm_revert">Bạn có chắc chắn rằng bạn muốn trở lại với hình ảnh đã lưu gần nhất?</item>
+			<item name="loading">Đang tải ảnh, vui lòng chờ...</item>
+			<item name="confirm_no_save">Bạn có chắc chắn rằng bạn không muốn lưu các thay đổi bạn thực hiện cho hình ảnh?</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertimage_desc">Chèn ảnh</item>	
+			<item name="replaceimage_desc">Thay thế ảnh</item>	
+			<item name="editimage_desc">Sửa ảnh</item>	
+		</group>
+
+		<group target="favorites">
+			<item name="special_folder_title">Yêu thích</item>
+			<item name="addfavorites">Thêm yêu thích</item>
+			<item name="removefavorites">Loại bỏ yêu thích</item>
+			<item name="confirm_remove_favorite">Bạn có chắc chắn muốn loại bỏ yêu thích này từ danh sách?</item>
+			<item name="remove_favorite_failed">Không thể loại bỏ các yêu thích từ danh sách yêu thích.</item>
+		</group>
+
+		<group target="history">
+			<item name="special_folder_title">Lịch sử</item>
+		</group>
+	</language>
+</language-pack>

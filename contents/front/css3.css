@@ -1,0 +1,79 @@
+.contentPadd.txtPage,
+.ui-dialog,
+.ui-dialog-titlebar,
+.cart,
+.ui-progressbar,
+.ui-datepicker,
+.result1_top, .result2_top, 
+.contentInfoText.un, 
+.contentInfoBlock	{
+	-moz-border-radius: 8px; /* Firefox */
+  	-webkit-border-radius: 8px; /* Safari, Chrome */
+ 	-khtml-border-radius: 8px; /* KHTML */
+  	border-radius: 8px;
+}
+.cart_products_options,
+.row_7 CHECKBOX, .row_7 INPUT, .row_7 RADIO, .row_7 select, .row_7 textarea,
+.fieldValue  input, .go	{
+	-moz-border-radius: 8px; /* Firefox */
+  	-webkit-border-radius: 8px; /* Safari, Chrome */
+ 	-khtml-border-radius: 8px; /* KHTML */
+  	border-radius: 8px;
+}
+.contentInfoText	{
+	 -moz-border-radius-bottomleft: 8px; -webkit-border-bottom-left-radius: 8px; border-bottom-left-radius: 8px; -moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px; border-bottom-right-radius: 8px;
+	 
+}
+.wrapper_pic_tl,
+.wrapper_pic_tr,
+.wrapper_pic_bl,
+.wrapper_pic_br,
+.wrapper_pic_t,
+.wrapper_pic_r,
+.wrapper_pic_b,
+.wrapper_pic_l,
+
+.wrapper_pic_tl:hover,
+.wrapper_pic_tr:hover,
+.wrapper_pic_bl:hover,
+.wrapper_pic_br:hover,
+.wrapper_pic_t:hover,
+.wrapper_pic_r:hover,
+.wrapper_pic_b:hover,
+.wrapper_pic_l:hover,
+
+					{
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+}
+.contentPadd h3,
+.cart th.th1	{
+	-moz-border-radius-topleft: 8px; -webkit-border-top-left-radius: 8px; border-top-left-radius: 8px;
+}
+.contentPadd h3,
+.cart th.th3	{
+	-moz-border-radius-topright: 8px; -webkit-border-top-right-radius: 8px; border-top-right-radius: 8px;
+}
+.box-padd	{
+ border-radius: 0 0 8px 8px;
+ -moz-border-radius: 0 0 8px 8px;
+ -webkit-border-radius: 0 0 8px 8px;
+}
+.contentContainer.page_un .contentPadd.un,
+.listing_padd,
+.title-t,
+.name_wrapper,
+.border_prods,
+.infoBoxWrapper,
+.infoBoxWrapper .infoBoxHeading	{
+ border-radius: 8px 8px 8px 8px;
+ -moz-border-radius: 8px 8px 8px 8px;
+ -webkit-border-radius: 8px 8px 8px 8px;
+ position:relative;
+}
+.line	{
+ border-radius: 0 0 8px 0;
+ -moz-border-radius: 0 0 8px 0;
+ -webkit-border-radius: 0 0 8px 0;
+}
